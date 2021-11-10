@@ -1,5 +1,8 @@
 package problems
 
+/**
+ * 20. Valid Parentheses
+ */
 object p20 {
   def isValid(s: String): Boolean = {
     val p = Map("{" -> "}", "(" -> ")", "[" -> "]")

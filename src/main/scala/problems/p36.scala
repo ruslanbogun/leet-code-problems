@@ -1,5 +1,9 @@
 package problems
 
+/**
+ * 36. Valid Sudoku
+ */
+
 object p36 {
   def checkRepetition(a: Array[Char]): Boolean = !a.groupBy(identity).exists { case (c, g) => g.length > 1 && c != '.' }
 

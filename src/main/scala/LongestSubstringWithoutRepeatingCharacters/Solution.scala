@@ -5,6 +5,7 @@ package LongestSubstringWithoutRepeatingCharacters
  *
  * Given a string s, find the length of the longest substring without repeating characters.
  */
+
 object Solution {
   def lengthOfLongestSubstring(s: String): Int = {
     def loop(s: String, ns: String, acc: Int): Int = {
